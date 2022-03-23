@@ -1,0 +1,16 @@
+body {
+    background-color: powderblue;
+    height: fit-content;
+    margin: 25%;
+    padding: auto;
+}
+
+h1 {
+    color: black;
+    align-content: center;
+    font-size: 50px;
+}
+button {
+    border: 2px gray;
+    box-shadow: black;
+}
