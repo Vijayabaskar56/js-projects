@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body, html {
+    background-color: #eff4fe;
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+}
+
+
+.card {
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+    padding: 50px;
+    border: 10px;
+    border-radius: 2.5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+#counter {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.lowbtn, .highbtn {
+    background-color:chocolate;
+    /* box-shadow: 2.5px 5px 20px rgba(0, 0, 0, 0.2); */
+    font-size: 1.2rem;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+
