@@ -16,7 +16,7 @@
 
     let counter = 0;
     buttons.forEach(function (button) {
-        button.addEventlistener("click", function () {
+        button.addEventlistener("click", function (e) {
             if (button.classList.contains('btn-left')) {
                 counter--
                 if (counter < 0) {
